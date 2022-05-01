@@ -76,4 +76,5 @@ ActiveRecord::Schema.define(version: 2022_04_24_063442) do
   add_foreign_key "messages", "users"
   add_foreign_key "room_users", "rooms"
   add_foreign_key "room_users", "users"
+  end
 end
